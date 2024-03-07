@@ -16,7 +16,6 @@ export default class UpScene extends BaseScene {
     update() {
         super.update();
         const playerX = this.getPlayerX();
-        const playerY = this.getPlayerY();
         if (playerX === undefined) {
             return;
         }
